@@ -51,7 +51,7 @@ BoB 프로젝트에선 1-Day 취약점 탐색을 목표로 진행하였으나, �
 
 전체 Exploit은 다음 Github 페이지에서 확인할 수 있다 : https://github.com/synacktiv/PS4-webkit-exploit-6.XX
 
-## 4. 탐구하려는 주제에 대한 결과물 정리
+## 4. 주제에 대해서 더 탐구한 지식들에 대한 정리
 
 CVE-2012-3748 분석 : https://github.com/imkidz0/Knights-Frontier/blob/BoB-Project-Research/9th/PS4_%ED%95%B4%ED%82%B9/cve-2012-3748.md
 

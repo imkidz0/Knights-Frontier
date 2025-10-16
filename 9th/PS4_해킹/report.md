@@ -12,7 +12,9 @@ BoB 프로젝트 중 포너블 관련 연구들을 찾다가 BoB 9기에서 진�
 
 ## 3. 탐구하려는 주제에 대한 결과물 정리
 
-관련 자료를 탐색하던 중, CTurt가 작성한 구버전 PS4 대상으로 Webkit 취약점과 Kernel 취약점을 포팅해 Exploit한 문서(https://cturt.github.io/ps4.html)를 발견하였다  
+관련 자료를 탐색하던 중, CTurt가 작성한 구버전 PS4 대상으로 Webkit 취약점과 Kernel 취약점을 포팅해 Exploit한 문서를 발견하였다 
+(https://cturt.github.io/ps4.html)  
+
 본 문서의 주요 내용을 정리하면 다음과 같다 :  
 * 1. PS4 펌웨어 1.76에서 인터넷 브라우저를 통해 커널 코드 실행까지 도달하는 전체 익스플로잇 체인
 * 2. WebKit의 CVE-2012-3748 취약점(JSArray::sort 메서드의 힙 버퍼 오버플로우)을 이용해 브라우저 프로세스 제어

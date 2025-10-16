@@ -41,7 +41,8 @@ BoB 프로젝트에선 1-Day 취약점 탐색을 목표로 진행하였으나, �
     → 타이머 만료 전 포커스 이벤트 핸들러 등록  
     → 레이아웃 업데이트 중 JS 콜백에서 객체 파괴  
     → **UAF 발생**    
-* 3. ASLR 우회: 힙 스프레이로 예측 가능한 위치에 HTMLElement 객체 할당 후 ValidationMessage을 ArrayBuffer로 교체하고 m_bubble/m_element를 고정 주소로 조작  
+* 3. ASLR 우회: 힙 스프레이로 예측 가능한 위치에 HTMLElement 객체 할당 후  
+  ValidationMessage을 ArrayBuffer로 교체하고 m_bubble/m_element를 고정 주소로 조작  
 
 * 4. 익스플로잇 단계:
   - 객체 재사용: ValidationMessage 주변을 같은 크기 객체로 스프레이 → 해제 후 ArrayBuffer(48)로 재스프레이

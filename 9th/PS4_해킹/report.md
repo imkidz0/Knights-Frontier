@@ -12,7 +12,7 @@ BoB 프로젝트 중 포너블 관련 연구들을 찾다가 BoB 9기에서 진�
 
 ## 3. 탐구하려는 주제에 대한 결과물 정리
 
-# 3.1 Hacking the PS4 (Author : CTrut)
+### 3.1 Hacking the PS4 (Author : CTrut)
 출처 : https://cturt.github.io/ps4.html  
 
 관련 자료를 탐색하던 중, CTurt가 작성한 구버전 PS4 대상으로 Webkit 취약점과 Kernel 취약점을 포팅해 Exploit한 문서를 발견하였다  
@@ -27,7 +27,7 @@ BoB 프로젝트 중 포너블 관련 연구들을 찾다가 BoB 9기에서 진�
 * 7. getlogin 시스템 콜(CVE-2014-8476)을 통해 17바이트의 커널 메모리 누출 성공
 * 8. 브라우저가 root 권한으로 실행되며, 커널 ASLR이 비활성화되어 있음을 확인
 
-# 3.2 This is for the Pwners: Exploiting a WebKit 0-day in PlayStation 4 (Author : Mehdi Talbi, Quentin Meffre)
+### 3.2 This is for the Pwners: Exploiting a WebKit 0-day in PlayStation 4 (Author : Mehdi Talbi, Quentin Meffre)
 출처 : https://www.synacktiv.com/publications/this-is-for-the-pwners-exploiting-a-webkit-0-day-in-playstation-4.html  
 
 또한, 2020년도 Black hat 컨퍼런스에서 발표된 PS4 0-Day exploit 관련 문서에 대해서도 소개하고자 한다  

@@ -53,7 +53,7 @@ BoB 프로젝트에선 1-Day 취약점 탐색을 목표로 진행하였으나, �
 
 ## 4. 탐구하려는 주제에 대한 결과물 정리
 
-CVE-2012-3748 분석 : 
+CVE-2012-3748 분석 : https://github.com/imkidz0/Knights-Frontier/blob/BoB-Project-Research/9th/PS4_%ED%95%B4%ED%82%B9/cve-2012-3748.md
 
 ## 5. 주제를 조사하고 난 이후 느낀점
 주제에 대해 탐구하기 전엔 Playstation 4가 어떤 식으로 해킹이 이루어지는지 궁금했는데,  

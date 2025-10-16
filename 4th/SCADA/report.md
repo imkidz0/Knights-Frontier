@@ -58,7 +58,7 @@ SCADA 취약점 프레임워크 개발 프로젝트는 SCADA에서 발생할 수
 ### 3.2 SCADA 취약점 사례 "Stuxnet" 분석
 
 #### 1. 개요
-* Stuxnet은 **Windows 플랫폼을 매개로 SCADA 환경(특히 Siemens Step7/WinCC)** 를 목표로 한 고도화된 멀티모듈 악성코드이다  
+Stuxnet은 **Windows 플랫폼을 매개로 SCADA 환경(특히 Siemens Step7/WinCC)** 를 목표로 한 고도화된 멀티모듈 악성코드이다  
 공격의 최종 목적은 특정 PLC 구성(원심분리기 제어기)의 동작을 은밀히 교란하여 물리적 피해를 유발하는 것이었다
 
 #### 2. 공격 체인 분해

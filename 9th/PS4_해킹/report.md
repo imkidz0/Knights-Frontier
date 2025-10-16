@@ -47,9 +47,15 @@ BoB 프로젝트에선 1-Day 취약점 탐색을 목표로 진행하였으나, �
 * 4. 익스플로잇 단계:
   - 객체 재사용: ValidationMessage 주변을 같은 크기 객체로 스프레이 → 해제 후 ArrayBuffer(48)로 재스프레이
   - 초기 메모리 릭: m_timer 값 유출로 같은 smallPage의 객체 주소 추론
-  - 임의 감소 프리미티브: deleteBubbleTree의 refcount 감소를 악용해 StringImpl 길이 필드 조작  
+  - 임의 감소 프리미티브: deleteBubbleTree의 refcount 감소를 악용해 StringImpl 길이 필드 조작
 
-## 4. 주제를 조사하고 난 이후 느낀점
+전체 Exploit은 다음 Github 페이지에서 확인할 수 있다 : https://github.com/synacktiv/PS4-webkit-exploit-6.XX
+
+## 4. 탐구하려는 주제에 대한 결과물 정리
+
+CVE-2012-3748 분석 : 
+
+## 5. 주제를 조사하고 난 이후 느낀점
 주제에 대해 탐구하기 전엔 Playstation 4가 어떤 식으로 해킹이 이루어지는지 궁금했는데,  
 PS4 또한 WebKit기반의 browser를 사용하고, FreeBSD 9 기반의 OS인 Orbis OS를 사용한다는 것을 활용하여  
 브라우저의 취약점과 커널의 취약점을 chaining하여 Jailbreak가 이루어진다는 점이 인상깊었다

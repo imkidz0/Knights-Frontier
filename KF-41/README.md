@@ -16,4 +16,3 @@
 - **최소 인원:** 1명
 - **예상 기간:** 2주
 - **관련 링크:** https://attack.mitre.org/matrices/enterprise/
-- **제작자:** @italwaysrain
